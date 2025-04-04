@@ -13,7 +13,7 @@ a = Analysis(
     hookspath=[],
     hooksconfig={},
     runtime_hooks=[],
-    excludes=[],
+    excludes=["PyQt5"],
     noarchive=False,
     optimize=0,
 )
@@ -25,7 +25,7 @@ exe = EXE(
     a.binaries,
     a.datas,
     [],
-    name='Fluentus',
+    name='Konvera',
     debug=False,
     bootloader_ignore_signals=False,
     strip=False,
