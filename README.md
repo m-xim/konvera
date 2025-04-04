@@ -2,6 +2,8 @@
 
 Konvera — приложение для конвертации и сжатия файлов с удобным интерфейсом.
 
+<img src="images/preview.png" alt="Preview Fluentus program" width="600">
+
 ## Возможности
 
 - Конвертация файлов различных форматов
