@@ -14,15 +14,15 @@
       {
         "assets": [
           {
-            "path": "release/windows-latest/Fluentus.exe",
+            "path": "release/windows-latest/Konvera.exe",
             "label": "Windows App"
           },
           {
-            "path": "release/ubuntu-latest/Fluentus",
+            "path": "release/ubuntu-latest/Konvera",
             "label": "Linux App"
           },
           {
-            "path": "release/macos-latest/Fluentus-macOS",
+            "path": "release/macos-latest/Konvera-macOS",
             "label": "macOS App"
           }
         ]
