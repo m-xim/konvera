@@ -1,0 +1,17 @@
+PyQt6~=6.8.0
+pydantic~=2.10.6
+structlog~=25.2.0
+python-ffmpeg~=2.0.12
+pyav~=14.2.1
+imageio~=2.37.0
+qasync~=0.27.1
+dynaconf~=3.2.10
+imageio-ffmpeg~=0.6.0
+QDarkStyle~=3.2.3
+aiohttp~=3.11.16
+aiofiles~=24.1.0
+numpy~=2.2.4
+pillow~=11.1.0
+docx2pdf~=0.1.8
+pdf2docx~=0.5.8
+PyMuPDF~=1.25.5
