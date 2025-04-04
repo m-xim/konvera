@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/m-xim/konvera/compare/v1.0.0...v1.0.1) (2025-04-04)
+
+
+### Bug Fixes
+
+* path config ([8c9e59e](https://github.com/m-xim/konvera/commit/8c9e59efbf4193c432db8c32ca16571eafbb5f6e))
+
 # 1.0.0 (2025-04-04)
 
 
