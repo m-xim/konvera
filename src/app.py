@@ -17,6 +17,7 @@ from src.config import config
 from src.tools.converter import FileConverter
 from src.tools.optimize import FileOptimizer
 from src.utils.exception_handler import exception_handler
+from src.utils.resource_path import resource_path
 
 
 class Konvera(QWidget):
@@ -28,7 +29,7 @@ class Konvera(QWidget):
         self.optimizer: Optional[FileOptimizer] = None
         self.converter: Optional[FileConverter] = None
         self.setWindowTitle(self.config.main.title)
-        self.setWindowIcon(QIcon("resource/icon.ico"))
+        self.setWindowIcon(QIcon(resource_path("resource/icon.ico")))
         self.setFixedSize(400, 440)
         self.setAcceptDrops(True)
         self.file_path = None
