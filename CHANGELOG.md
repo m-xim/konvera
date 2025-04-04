@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/m-xim/konvera/compare/v1.0.2...v1.0.3) (2025-04-04)
+
+
+### Bug Fixes
+
+* icon ([f0d0c58](https://github.com/m-xim/konvera/commit/f0d0c5858f70a5b5e86e9690925587b4f6657fde))
+
 ## [1.0.2](https://github.com/m-xim/konvera/compare/v1.0.1...v1.0.2) (2025-04-04)
 
 
