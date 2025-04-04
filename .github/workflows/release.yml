@@ -89,7 +89,7 @@ jobs:
           }
           
           New-Item -ItemType Directory -Force -Path release/${{ matrix.os }}
-          Copy-Item -Path "dist\Fluentus.exe" -Destination "release\${{ matrix.os }}\Fluentus${{ matrix.extension }}"
+          Copy-Item -Path "dist\Konvera.exe" -Destination "release\${{ matrix.os }}\Konvera${{ matrix.extension }}"
 
       - name: Build executable (Linux & macOS)
         if: matrix.os != 'windows-latest'
@@ -102,17 +102,17 @@ jobs:
             pyinstaller dev.spec
           fi
           
-          chmod +x dist/Fluentus
+          chmod +x dist/Konvera
 
           mkdir -p release/${{ matrix.os }}
-          cp dist/Fluentus release/${{ matrix.os }}/Fluentus${{ matrix.extension }}
+          cp dist/Konvera release/${{ matrix.os }}/Konvera${{ matrix.extension }}
 
       - name: Upload Build Artifact
         uses: actions/upload-artifact@v4
         with:
           name: ${{ matrix.artifact_name }}
           path: |
-            release/${{ matrix.os }}/Fluentus${{ matrix.extension }}
+            release/${{ matrix.os }}/Konvera${{ matrix.extension }}
 
   release:
     name: Publish Release
