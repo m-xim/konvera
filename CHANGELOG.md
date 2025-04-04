@@ -1,3 +1,11 @@
+## [1.0.2](https://github.com/m-xim/konvera/compare/v1.0.1...v1.0.2) (2025-04-04)
+
+
+### Bug Fixes
+
+* deps ([26667e2](https://github.com/m-xim/konvera/commit/26667e2112ac08d29684172501a31869bd01911d))
+* deps ([13d4ed6](https://github.com/m-xim/konvera/commit/13d4ed6228808ec1baf556a46c58923cd7d31321))
+
 ## [1.0.1](https://github.com/m-xim/konvera/compare/v1.0.0...v1.0.1) (2025-04-04)
 
 
